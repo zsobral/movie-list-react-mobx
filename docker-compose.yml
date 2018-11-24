@@ -1,0 +1,14 @@
+version: "3"
+
+services:
+  api:
+    image: zsobral/movie-list-api
+    env_file:
+      - .env.local
+    environment: 
+      - NODE_ENV=development
+    ports:
+      - "3001:3000"
+
+  mongo:
+    image: mongo:4

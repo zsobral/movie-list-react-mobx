@@ -1,0 +1,29 @@
+$black: #363636;
+$dark: #363445;
+$green: #00c853;
+$white: #ffffff;
+
+$bg: $dark;
+$primary: $green;
+
+$font-size: 16px;
+$font-family: BlinkMacSystemFont, -apple-system, 'Segoe UI', Roboto, Oxygen,
+  Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', Helvetica,
+  Arial, sans-serif;
+$font-color: $white;
+
+$border-radius: 5px;
+
+$input-bg: darken($dark, 10%);
+$input-color: $font-color;
+$input-padding: 12px;
+$input-font-size: 1rem;
+$input-border: 1px solid rgba(255, 255, 255, 0.2);
+$input-shadow-focus: 0 0 0 2px rgba(255, 255, 255, 0.3);
+$input-border-radius: $border-radius;
+$input-height: 48px;
+
+$btn-radius: $border-radius;
+$btn-height: 48px;
+
+$container-size: 1200px;

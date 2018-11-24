@@ -1,0 +1,50 @@
+.input-control {
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 16px;
+}
+
+.input-control.has-error .input {
+  border-color: #ff4040;
+}
+
+.input-control.has-error .input:focus {
+  box-shadow: 0 0 0 2px #ff4040;
+}
+
+.input {
+  font-family: $font-family;
+  background: $input-bg;
+  border: $input-border;
+  font-size: $font-size;
+  color: $input-color;
+  padding: $input-padding;
+  border-radius: $input-border-radius;
+  box-sizing: border-box;
+  transition: all 0.15s ease-in-out;
+  width: 100%;
+  height: $input-height;
+  font-size: 1.2rem;
+}
+
+.input:focus {
+  outline: none;
+  box-shadow: $input-shadow-focus;
+}
+
+.input-control .spinner {
+  position: absolute;
+  top: 0;
+  right: 12px;
+  bottom: 0;
+  margin: auto 0;
+}
+
+.input-control .input-error {
+  margin-top: 8px;
+  color: #ff4040;
+}

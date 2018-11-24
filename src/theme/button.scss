@@ -1,0 +1,43 @@
+.button {
+  border: none;
+  border-radius: $btn-radius;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 12px 24px;
+  background-color: #00c853;
+  color: #ffffff;
+  margin: 10px 0;
+  font-family: BlinkMacSystemFont, -apple-system, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', Helvetica,
+    Arial, sans-serif;
+  font-size: 1rem;
+  cursor: pointer;
+  text-align: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 200ms ease-out;
+  height: $btn-height;
+  text-decoration: none;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button .spinner {
+  margin-left: 8px;
+}
+
+.button.full-width {
+  width: 100%;
+}
+
+.button.link {
+  border-radius: 0;
+  font-weight: normal;
+  padding: 12px 24px;
+  background-color: transparent;
+  color: #ffffff;
+}
